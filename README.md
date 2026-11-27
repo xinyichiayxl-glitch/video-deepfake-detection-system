@@ -19,7 +19,11 @@ A multi-architecture deep learning forensic system for detecting video deepfakes
 
 ## 🖥️ System Preview & Explainability (Grad-CAM)
 
-![Video Deepfake Detection System Demo](demo_detection.jpg)
+### Live Interactive Demo Walkthrough
+*(Drag your .mp4 recording directly into the GitHub README editor right here so GitHub inserts the playable video link)*
+
+### Forensic Dashboard & Grad-CAM Output
+![Video Deepfake Detection System Demo](demo_detection.png)
 *Full Gradio forensic dashboard showing ensemble prediction (`97.5% Fake Probability`), anatomical Grad-CAM explainability report, 16-frame attention heatmap overlay, and temporal consistency diagnostics.*
 
 ## 🏗️ System Architecture & Preprocessing Pipeline
