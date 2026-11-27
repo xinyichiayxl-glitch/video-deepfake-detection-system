@@ -1,0 +1,9 @@
+{
+  "mae_weight": 0.6,
+  "cnn_weight": 0.4,
+  "threshold": 0.5,
+  "ensemble_type": "2-model",
+  "derived_from": "Grid search on production models",
+  "mae_accuracy_val": 91.0,
+  "cnn_accuracy_val": 81.0
+}
