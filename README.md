@@ -1,3 +1,5 @@
+
+
 # Video Deepfake Detection System 
 
 A multi-architecture deep learning forensic system for detecting video deepfakes, integrating **VideoMAE v8** (global temporal Vision Transformer) and **R(2+1)D 3D CNN** (local spatial-temporal convolutions) via score-level weighted late fusion, deployed as an interactive **Gradio** web application with **Grad-CAM** Explainable AI (XAI) visualizations.
