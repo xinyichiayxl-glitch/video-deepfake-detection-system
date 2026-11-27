@@ -22,7 +22,7 @@ A multi-architecture deep learning forensic system for detecting video deepfakes
 ## 🖥️ System Preview & Explainability (Grad-CAM)
 
 ### Live Interactive Demo Walkthrough
-*(Drag your .mp4 recording directly into the GitHub README editor right here so GitHub inserts the playable video link)*
+🎥 **[Watch the Live Interactive Gradio Demo Walkthrough](https://github.com/xinyichiayxl-glitch/video-deepfake-detection-system/blob/acce565d783e5e328757b2b271cd81be6d00775d/Video%20Deepfake%20Detection%20System%20Demo.mp4)
 
 ### Forensic Dashboard & Grad-CAM Output
 ![Video Deepfake Detection System Demo](demo_detection.png)
