@@ -48,6 +48,9 @@ Four architectures were trained and benchmarked under controlled conditions (`se
 | **GenConViT VAE** *(Reference)* | 92.49% | 98.55% | 90.81% | 94.53% | — |
 | **Ensemble (VideoMAE + 3D CNN)** | **81.06%** | **79.88%** | **98.22%** | **88.11%** | **0.829** |
 
+![Set A ROC Curves](roc_curves.png)
+*ROC curves on Set A (FaceForensics++ & Celeb-DF), showing the late-fusion Ensemble (`AUC = 0.8291`) outperforming every standalone architecture.*
+
 > *Note: GenConViT VAE was excluded from the production late-fusion ensemble due to its incompatible reconstruction-error output scale and sharp accuracy drop on unseen cross-domain datasets.*
 
 ### 2. Ablation Study & Production Weight Derivation
