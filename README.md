@@ -17,6 +17,11 @@ A multi-architecture deep learning forensic system for detecting video deepfakes
 
 ---
 
+## 🖥️ System Preview & Explainability (Grad-CAM)
+
+![Video Deepfake Detection System Demo](demo_detection.jpg)
+*Full Gradio forensic dashboard showing ensemble prediction (`97.5% Fake Probability`), anatomical Grad-CAM explainability report, 16-frame attention heatmap overlay, and temporal consistency diagnostics.*
+
 ## 🏗️ System Architecture & Preprocessing Pipeline
 
 1. **Security & Face Validation:** Validates file format, size, sanitized filename, rate limit, and human face presence using **Google MediaPipe BlazeFace**.
