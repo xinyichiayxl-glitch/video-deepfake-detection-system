@@ -1,0 +1,96 @@
+{
+  "dataset": "Set A (FF++ + Celeb-DF)",
+  "test_videos": 945,
+  "models": {
+    "VideoMAE": {
+      "name": "VideoMAE",
+      "accuracy": 76.61,
+      "precision": 76.71,
+      "recall": 96.59,
+      "f1_score": 85.51,
+      "auc": 0.7842,
+      "confusion_matrix": [
+        [
+          72,
+          198
+        ],
+        [
+          23,
+          652
+        ]
+      ]
+    },
+    "3D CNN": {
+      "name": "3D CNN",
+      "accuracy": 80.85,
+      "precision": 81.27,
+      "recall": 95.11,
+      "f1_score": 87.65,
+      "auc": 0.8205,
+      "confusion_matrix": [
+        [
+          122,
+          148
+        ],
+        [
+          33,
+          642
+        ]
+      ]
+    },
+    "Video Swin": {
+      "name": "Video Swin",
+      "accuracy": 78.1,
+      "precision": 78.19,
+      "recall": 96.15,
+      "f1_score": 86.25,
+      "auc": 0.7399,
+      "confusion_matrix": [
+        [
+          89,
+          181
+        ],
+        [
+          26,
+          649
+        ]
+      ]
+    },
+    "GenConViT VAE": {
+      "name": "GenConViT VAE",
+      "accuracy": 92.49,
+      "precision": 98.55,
+      "recall": 90.81,
+      "f1_score": 94.53,
+      "auc": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Ensemble": {
+      "name": "Ensemble",
+      "accuracy": 81.06,
+      "precision": 79.88,
+      "recall": 98.22,
+      "f1_score": 88.11,
+      "auc": 0.8291,
+      "confusion_matrix": [
+        [
+          103,
+          167
+        ],
+        [
+          12,
+          663
+        ]
+      ]
+    }
+  }
+}

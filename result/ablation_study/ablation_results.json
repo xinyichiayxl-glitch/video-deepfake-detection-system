@@ -1,0 +1,146 @@
+{
+  "evaluation_set": "Set A Validation (15%)",
+  "description": "Ablation study. Weights derived proportionally from each model's individual validation accuracy, then compared against a full 0.1-step grid search.",
+  "individual_model_val_accuracy": {
+    "videomae": 76.08,
+    "3dcnn": 78.31
+  },
+  "auto_derived_weights": {
+    "videomae": 0.4928,
+    "3dcnn": 0.5072
+  },
+  "results": [
+    {
+      "name": "VideoMAE Only",
+      "weights": {
+        "mae": 1.0,
+        "cnn": 0.0
+      },
+      "accuracy": 76.08,
+      "precision": 76.07,
+      "recall": 97.04,
+      "f1_score": 85.29
+    },
+    {
+      "name": "3D CNN Only",
+      "weights": {
+        "mae": 0.0,
+        "cnn": 1.0
+      },
+      "accuracy": 78.31,
+      "precision": 78.8,
+      "recall": 95.26,
+      "f1_score": 86.25
+    },
+    {
+      "name": "MAE(0.1) + CNN(0.9)",
+      "weights": {
+        "mae": 0.1,
+        "cnn": 0.9
+      },
+      "accuracy": 78.84,
+      "precision": 78.86,
+      "recall": 96.15,
+      "f1_score": 86.65
+    },
+    {
+      "name": "MAE(0.2) + CNN(0.8)",
+      "weights": {
+        "mae": 0.2,
+        "cnn": 0.8
+      },
+      "accuracy": 78.84,
+      "precision": 78.65,
+      "recall": 96.59,
+      "f1_score": 86.7
+    },
+    {
+      "name": "MAE(0.3) + CNN(0.7)",
+      "weights": {
+        "mae": 0.3,
+        "cnn": 0.7
+      },
+      "accuracy": 78.84,
+      "precision": 78.44,
+      "recall": 97.04,
+      "f1_score": 86.75
+    },
+    {
+      "name": "MAE(0.4) + CNN(0.6)",
+      "weights": {
+        "mae": 0.4,
+        "cnn": 0.6
+      },
+      "accuracy": 79.15,
+      "precision": 78.45,
+      "recall": 97.63,
+      "f1_score": 87.0
+    },
+    {
+      "name": "MAE(0.5) + CNN(0.5)",
+      "weights": {
+        "mae": 0.5,
+        "cnn": 0.5
+      },
+      "accuracy": 78.94,
+      "precision": 77.93,
+      "recall": 98.37,
+      "f1_score": 86.97
+    },
+    {
+      "name": "MAE(0.6) + CNN(0.4)",
+      "weights": {
+        "mae": 0.6,
+        "cnn": 0.4
+      },
+      "accuracy": 78.31,
+      "precision": 77.33,
+      "recall": 98.52,
+      "f1_score": 86.64
+    },
+    {
+      "name": "MAE(0.7) + CNN(0.3)",
+      "weights": {
+        "mae": 0.7,
+        "cnn": 0.3
+      },
+      "accuracy": 77.78,
+      "precision": 76.82,
+      "recall": 98.67,
+      "f1_score": 86.38
+    },
+    {
+      "name": "MAE(0.8) + CNN(0.2)",
+      "weights": {
+        "mae": 0.8,
+        "cnn": 0.2
+      },
+      "accuracy": 77.14,
+      "precision": 76.35,
+      "recall": 98.52,
+      "f1_score": 86.03
+    },
+    {
+      "name": "MAE(0.9) + CNN(0.1)",
+      "weights": {
+        "mae": 0.9,
+        "cnn": 0.1
+      },
+      "accuracy": 76.61,
+      "precision": 76.15,
+      "recall": 97.93,
+      "f1_score": 85.68
+    },
+    {
+      "name": "MAE(0.49) + CNN(0.51) \u2605 [Auto]",
+      "weights": {
+        "mae": 0.4928,
+        "cnn": 0.5072
+      },
+      "accuracy": 78.94,
+      "precision": 77.93,
+      "recall": 98.37,
+      "f1_score": 86.97
+    }
+  ]
+}

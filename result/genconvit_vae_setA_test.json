@@ -1,0 +1,12 @@
+{
+  "model": "GenConViT VAE",
+  "dataset": "Set A (FF++ + Celeb-DF)",
+  "weight": "genconvit_vae_Mar_29_2026_07_41_01_acc_0.9186432361602783_inference",
+  "total_test": 945,
+  "tested": 945,
+  "skipped": 0,
+  "accuracy": 92.49,
+  "precision": 98.55,
+  "recall": 90.81,
+  "f1_score": 94.53
+}

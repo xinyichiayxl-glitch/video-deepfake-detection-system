@@ -1,0 +1,114 @@
+{
+  "experiment": "Cross-Dataset Validation \u2014 Per-Dataset Breakdown",
+  "ensemble_weights": {
+    "videomae": 0.4,
+    "3dcnn": 0.6
+  },
+  "per_dataset": {
+    "FaceForensics++": {
+      "total_videos": 300,
+      "skipped": 0,
+      "real_count": 78,
+      "fake_count": 222,
+      "videomae": {
+        "accuracy": 78.0,
+        "precision": 78.06,
+        "recall": 97.75,
+        "f1": 86.8
+      },
+      "3dcnn": {
+        "accuracy": 81.0,
+        "precision": 81.61,
+        "recall": 95.95,
+        "f1": 88.2
+      },
+      "ensemble": {
+        "accuracy": 80.67,
+        "precision": 80.37,
+        "recall": 97.75,
+        "f1": 88.21
+      },
+      "in_training": true
+    },
+    "Celeb-DF": {
+      "total_videos": 211,
+      "skipped": 0,
+      "real_count": 64,
+      "fake_count": 147,
+      "videomae": {
+        "accuracy": 81.99,
+        "precision": 90.98,
+        "recall": 82.31,
+        "f1": 86.43
+      },
+      "3dcnn": {
+        "accuracy": 86.73,
+        "precision": 92.2,
+        "recall": 88.44,
+        "f1": 90.28
+      },
+      "ensemble": {
+        "accuracy": 86.73,
+        "precision": 92.81,
+        "recall": 87.76,
+        "f1": 90.21
+      },
+      "in_training": true
+    },
+    "DF40": {
+      "total_videos": 98,
+      "skipped": 0,
+      "real_count": 78,
+      "fake_count": 20,
+      "videomae": {
+        "accuracy": 32.65,
+        "precision": 19.74,
+        "recall": 75.0,
+        "f1": 31.25
+      },
+      "3dcnn": {
+        "accuracy": 48.98,
+        "precision": 27.27,
+        "recall": 90.0,
+        "f1": 41.86
+      },
+      "ensemble": {
+        "accuracy": 42.86,
+        "precision": 24.29,
+        "recall": 85.0,
+        "f1": 37.78
+      },
+      "in_training": false
+    },
+    "DeepFakeEval": {
+      "total_videos": 814,
+      "skipped": 0,
+      "real_count": 429,
+      "fake_count": 385,
+      "videomae": {
+        "accuracy": 52.21,
+        "precision": 49.53,
+        "recall": 54.29,
+        "f1": 51.8
+      },
+      "3dcnn": {
+        "accuracy": 47.67,
+        "precision": 45.55,
+        "recall": 54.55,
+        "f1": 49.65
+      },
+      "ensemble": {
+        "accuracy": 49.51,
+        "precision": 47.05,
+        "recall": 53.77,
+        "f1": 50.18
+      },
+      "in_training": false
+    }
+  },
+  "generalization_gap": {
+    "avg_seen_accuracy": 83.7,
+    "avg_unseen_accuracy": 46.19,
+    "gap": 37.51
+  }
+}

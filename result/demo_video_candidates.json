@@ -1,0 +1,86 @@
+{
+  "fake_top5": [
+    {
+      "path": "data/Test_Dataset/fake/FaceForensics_Deepfakes\\176_190.mp4",
+      "source": "FaceForensics_Deepfakes",
+      "verdict": "FAKE",
+      "confidence": 100.0,
+      "score": 100.0,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/fake/FaceForensics_Deepfakes\\042_084.mp4",
+      "source": "FaceForensics_Deepfakes",
+      "verdict": "FAKE",
+      "confidence": 99.9,
+      "score": 99.9,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/fake/FaceForensics_Deepfakes\\112_892.mp4",
+      "source": "FaceForensics_Deepfakes",
+      "verdict": "FAKE",
+      "confidence": 99.4,
+      "score": 99.4,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/fake/FaceForensics_Deepfakes\\054_071.mp4",
+      "source": "FaceForensics_Deepfakes",
+      "verdict": "FAKE",
+      "confidence": 98.7,
+      "score": 98.7,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/fake/FaceForensics_Face2Face\\103_082.mp4",
+      "source": "FaceForensics_Face2Face",
+      "verdict": "FAKE",
+      "confidence": 98.6,
+      "score": 98.6,
+      "correct": true
+    }
+  ],
+  "real_top5": [
+    {
+      "path": "data/Test_Dataset/real/CelebDF\\00135.mp4",
+      "source": "CelebDF",
+      "verdict": "REAL",
+      "confidence": 100.0,
+      "score": 0.0,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/real/CelebDF\\00010.mp4",
+      "source": "CelebDF",
+      "verdict": "REAL",
+      "confidence": 99.6,
+      "score": 0.4,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/real/CelebDF\\00056.mp4",
+      "source": "CelebDF",
+      "verdict": "REAL",
+      "confidence": 98.7,
+      "score": 1.3,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/real/CelebDF\\00119.mp4",
+      "source": "CelebDF",
+      "verdict": "REAL",
+      "confidence": 92.8,
+      "score": 7.2,
+      "correct": true
+    },
+    {
+      "path": "data/Test_Dataset/real/CelebDF\\00112.mp4",
+      "source": "CelebDF",
+      "verdict": "REAL",
+      "confidence": 90.5,
+      "score": 9.5,
+      "correct": true
+    }
+  ]
+}

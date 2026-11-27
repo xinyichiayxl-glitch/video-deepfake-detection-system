@@ -1,0 +1,7 @@
+{
+  "optimized_threshold_f1": 0.5,
+  "optimized_threshold_roc": 0.662,
+  "default_threshold": 0.5,
+  "auc_score": 0.9258,
+  "method": "validation_set_optimization"
+}
